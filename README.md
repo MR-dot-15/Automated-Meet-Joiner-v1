@@ -11,6 +11,11 @@ For Windows (Linux-ians are too literate to need this, Mac-ians can pay PA-s to 
 5. If any of the initiation steps fails, please perform it manually
 6. Move/ copy-paste ```move.exe``` to the startup folder (usually at ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```)
 
+### Supposed to do
+- If ```move.exe``` is moved to the start-up folder, it will get initiated every time the machine starts
+- Otherwise, the ```main.py``` needs to be executed manually (expectedly sits at ```C:\amj\```)
+- Once ```main.py``` starts running, the meet log-ins will occur as per the input schedule
+
 ### Probable updates
 - Weekend-events and permission to edit an already-made schedule
 - More customizability 
