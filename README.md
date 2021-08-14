@@ -1,5 +1,6 @@
-# Automated-Meet-Joiner-
+# Automated-Meet-Joiner-v1
 A simple python program-bundle to automate meet-joining
+For Windows (Linux-ians are too literate to need this, Mac-ians can pay PA-s to login on behalf of 'em)
 
 ### Installation procedure
 1. Download the zip
