@@ -3,7 +3,7 @@ A simple python program-bundle to automate meet-joining
 For Windows (Linux-ians are too literate to need this, Mac-ians can pay PA-s to login on behalf of 'em)
 
 ### Installation procedure
-1. Download the zip
+1. Download the zip and extract the files anywhere under ```C:``` drive
 2. Run ```init.py```
 3. Details needed in this step:
 - Schedule details 
