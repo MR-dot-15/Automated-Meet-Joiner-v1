@@ -9,6 +9,7 @@ A simple python program-bundle to automate meet-joining, only for Windows (Linux
 - Log-in details
 5. If any of the initiation steps fails, please perform it manually
 6. Move/ copy-paste ```move.exe``` to the startup folder (usually at ```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```)
+7. Install chromedriver (version compatible with your chrome) at ```D:\``` (might change later)
 
 ### Supposed to do
 - If ```move.exe``` is moved to the start-up folder, it will get initiated every time the machine starts
