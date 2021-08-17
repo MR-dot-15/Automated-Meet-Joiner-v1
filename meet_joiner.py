@@ -1,3 +1,9 @@
+"""
+    after being called by main.py 
+    signs in, opens G-meet, turns off camera, mic
+    and just joins/ waits while asking for permission 
+"""
+
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -5,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 def join_meet(emailID, password, meet_link, driver):
-    # login
+    # logs in
     driver.get(
         'https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAAQ')
     mail, pwd = emailID, password
@@ -27,6 +33,7 @@ def join_meet(emailID, password, meet_link, driver):
     driver.get(meet_link)
     action.key_down(Keys.CONTROL).send_keys("d").send_keys("e").key_up(Keys.CONTROL).perform()
     button = driver.find_element_by_xpath('//div[@role="button"]//span[contains(text(), "Join now")]')
+    # waits until the 'button' is available 
     while True:
         try:
             button.click()
